@@ -31,10 +31,14 @@ struct ContentView : View {
             }
             .pickerStyle(.segmented)
             
-            Button("Start"){
+            Button("Start Game"){
                 startGame()
                 
             }
+            .padding()
+            .background(Color.blue)
+            .foregroundStyle(.white)
+            .clipShape(Capsule())
         }
     
     }
